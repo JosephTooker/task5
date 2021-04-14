@@ -1,0 +1,130 @@
+*{
+    font-family: sans-serif;
+}
+
+body {
+    margin:0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.movie {
+    padding:25px;
+    background:#3c342b;
+    color:goldenrod;
+    margin-bottom:25px;
+}
+
+/* .movie:nth-of-type(odd){
+    background:goldenrod;
+    color:#3c342b;
+}  */
+
+.nemesis {
+    order: 1;
+    background:goldenrod;
+    color:#3c342b;
+}
+
+.insurrection {
+    order: 2;
+}
+
+.first-contact {
+    order: 3;
+    background:goldenrod;
+    color:#3c342b;
+}
+
+.generations {
+    order: 4;
+}
+
+.undiscovered-country {
+    order: 5;
+    background:goldenrod;
+    color:#3c342b;
+}
+
+.the-final-frontier {
+    order: 6;
+}
+
+.the-voyage-home {
+    order: 7;
+    background:goldenrod;
+    color:#3c342b;
+}
+
+.the-search-for-spock {
+    order: 8;
+}
+
+.the-wrath-of-khan {
+    order: 9;
+    background:goldenrod;
+    color:#3c342b;
+}
+
+.the-motion-picture {
+    order: 10;
+}
+
+@media (min-width:769px){
+    .container {
+        flex-direction: column-reverse;
+    }
+
+    .the-motion-picture {
+        background:goldenrod;
+        color:#3c342b;
+    }
+
+    .the-wrath-of-khan {
+        background:#3c342b;
+        color:goldenrod;
+    }
+
+    .the-search-for-spock {
+        background:goldenrod;
+        color:#3c342b;
+    }
+
+    .the-voyage-home {
+        background:#3c342b;
+        color:goldenrod;
+    }
+
+    .the-final-frontier {
+        background:goldenrod;
+        color:#3c342b;
+    }
+
+    .undiscovered-country {
+        background:#3c342b;
+        color:goldenrod;
+    }
+
+    .generations {
+        background:goldenrod;
+        color:#3c342b;
+    }
+
+    .first-contact {
+        background:#3c342b;
+        color:goldenrod;
+    }
+    
+    .insurrection {
+        background:goldenrod;
+        color:#3c342b;
+    }
+
+    .nemesis {
+        background:#3c342b;
+        color:goldenrod;
+    }
+} 
